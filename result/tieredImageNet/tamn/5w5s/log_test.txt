@@ -1,0 +1,18 @@
+==========
+Args:Namespace(LUT_lr=[(20, 0.05), (40, 0.01), (60, 0.001), (80, 0.0001)], dataset='tiredImageNet', epos=3, gpu='1', height=84, lr=0.05, max_epoch=80, method='tamn', nTestNovel=75, nTrainNovel=30, num_episode_test=2000, num_episode_train=13980, num_episode_val=600, optim='SGD', run_path='matthewxy/tamn/1sazts12', save_dir='./result/tiredImageNet/new/5w5s_tamn_tired_newlr_seed23/', scale_cls=7, seed=23, shot=5, stepsize=[60], test_batch=4, train_batch=4, train_categories=351, use_enhancer=True, use_global=True, use_matt=True, way=5, width=84, workers=4)
+==========
+Initializing data manager
+Initializing dataset tiredImageNet
+=> tiredImageNet loaded
+Dataset statistics:
+  ------------------------------
+  subset   | # cats | # images
+  ------------------------------
+  train    |   351 |   448695
+  val      |    97 |   124261
+  test     |   160 |   206209
+  ------------------------------
+  total    |   608 |   779165
+  ------------------------------
+==> Start testing
+Accuracy: 85.20%, std: 0.34%, Loss: 1.5436
